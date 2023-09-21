@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Password Genarator</title>
+</head>
+
+<body>
+    <!-- inner box start -->
+    <div class="contaner">
+        <!-- heading text start -->
+        <div class="heading">
+            <div class="heading">
+                <h1 class="bold">Generate a</h1>
+                <h1 class="green bold">random password</h1>
+            </div>
+            <p class="tagline">Never use an insecure password again.</p>
+            <!-- heading text end -->
+
+            <!-- input area start-->
+            <div class="inputs">
+                <button onclick="genratePass()">Generate passwords</button>
+                <input type="number" id="number-el" value="8">
+            </div>
+            <!-- input area end-->
+
+            <hr> <!-- line -->
+            
+            <!-- password area start-->
+            <div class="password-b">
+                <div class="password" id="pass-el-one"></div>
+                <div class="password" id="pass-el-two"></div>
+            </div>
+            <!-- password area end-->
+        </div>
+        <!-- inner box end -->
+
+        <!-- javascript -->
+        <script src="/index.js"></script>
+</body>
+
+</html>

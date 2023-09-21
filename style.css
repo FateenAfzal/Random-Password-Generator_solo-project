@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: #1C1C1C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contaner {
+    background-color: #1F2937;
+    height: 60vh;
+    width: 35vw;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 15vh;
+}
+
+.heading {
+    margin-bottom: 4px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.green {
+    color: #4ADF86;
+}
+
+.tagline {
+    font-weight: 300;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+button {
+    background-color: #4ADF86;
+    border-radius: 15px;
+    border: none;
+    margin-top: 40px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin-top: 40px;
+    background-color: #273549;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #4ADF86;
+}
+
+hr {
+    margin-top: 40px;
+    border: 2px solid #273549;
+    border-radius: 50px;
+}
+
+.password-b {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.password {
+    color: #4ADF86;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #273549;
+}
